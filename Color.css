@@ -1,0 +1,172 @@
+body
+{
+background-color: black;
+}
+.King
+{
+    display:flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.King>*
+{
+    padding: 12px;
+    flex: 1 100%;
+}
+.Header
+{
+    background-color: gray;
+    height:100 px;
+    background-image: linear-gradient(to top,black,#222333);
+    border-radius: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    margin: 0px;
+    
+}
+
+.Buyo
+{
+    background-color:dodgerblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: dodgerblue;
+    border-left-color: dodgerblue;
+    border-right-color: dodgerblue;
+    border-top-color: dodgerblue;
+    border-bottom-color: dodgerblue;
+    border-radius: 50px;
+
+}
+.Buyo:hover
+{
+    background-color: rgb(65, 188, 225);
+    border-radius:0px ;
+}
+.Draoke
+{
+    background-image: linear-gradient(to bottom,black,gray);
+}
+.Dementor
+{
+    background-color:darkred;
+    border-style: solid;
+    border-width: 2px;
+    border-color:red;
+    border-left-color: red;
+    border-right-color: red;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-radius: 5px;
+    height:100px;
+    width:418px;
+    color:black;
+    font-size:x-large;
+    padding-left:10px;
+    padding-right:10px;
+    transition: ease 0.3s;
+
+}
+.Navigator
+{
+    background-color:darkblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color:blue;
+    border-left-color: blue;
+    border-right-color: blue;
+    border-top-color: blue;
+    border-bottom-color: blue;
+    border-radius: 5px;
+    height:100px;
+    width:418px;
+    color:black;
+    font-size:x-large;
+    padding-left:10px;
+    padding-right:10px;
+    transition: ease 0.3s;
+}
+.Navigator:hover
+{
+    background-color:black;
+    color:darkblue;
+}
+.Nav
+{
+    background-color:darkred;
+    border-style: solid;
+    border-width: 2px;
+    border-color:red;
+    border-left-color: red;
+    border-right-color: red;
+    border-top-color: red;
+    border-bottom-color: red;
+    border-radius: 5px;
+    height:100px;
+    width:418px;
+    color:black;
+    font-size:x-large;
+    padding-left:10px;
+    padding-right:10px;
+    transition: ease 0.3s;
+
+}
+.Nav:hover
+{
+    background-color:black;
+    color:darkred;
+
+}
+.Dementor:hover
+{
+    background-color:black;
+    color:darkred;
+    transition: ease-in 0.3s;
+}
+
+@media all and (min-width:600px)
+{
+    .Pan
+    {
+     flex: 1 0 0;
+    }
+    
+@media all and (min-width:900px)
+{
+    .Main
+    {
+        flex: 3 0px;
+        order:2;
+        
+    }
+    .Left
+    {
+        order:1;
+     
+    }
+    .Right
+    {
+        order:3;
+    }
+    .Footer
+    {
+        order:4;
+    }
+    .Kool
+    {
+        position: absolute;       
+        left:40px;
+    }
+    .Somuch
+    {
+        font-family: 'Open Sans', cursive;
+        font-size: xx-large;
+        color:white;
+        padding-right: 200px;
+    }
+    .gosh
+    {
+        
+    }
+
+}
